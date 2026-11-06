@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <!-- HOME -->
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.notesnap.ui.home.HomeFragment"
+        android:label="@string/nav_home"
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/action_home_to_pages"
+            app:destination="@id/pagesFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+
+        <action
+            android:id="@+id/action_home_to_editor"
+            app:destination="@id/editorFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+
+        <action
+            android:id="@+id/action_home_to_detail"
+            app:destination="@id/detailFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+
+    <!-- PAGES (notes list) -->
+    <fragment
+        android:id="@+id/pagesFragment"
+        android:name="com.example.notesnap.ui.notes.NoteListFragment"
+        android:label="@string/nav_pages"
+        tools:layout="@layout/fragment_note_list">
+
+        <argument
+            android:name="query"
+            android:defaultValue=""
+            app:argType="string" />
+
+        <action
+            android:id="@+id/action_pages_to_detail"
+            app:destination="@id/detailFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+
+        <action
+            android:id="@+id/action_pages_to_editor"
+            app:destination="@id/editorFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+
+    <!-- SCAN -->
+    <fragment
+        android:id="@+id/scanFragment"
+        android:name="com.example.notesnap.ui.scan.ScanFragment"
+        android:label="@string/scan_title"
+        tools:layout="@layout/fragment_scan">
+
+        <action
+            android:id="@+id/action_scan_to_editor"
+            app:destination="@id/editorFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+
+    <!-- EDITOR -->
+    <fragment
+        android:id="@+id/editorFragment"
+        android:name="com.example.notesnap.ui.editor.NoteEditorFragment"
+        android:label="@string/edit_note"
+        tools:layout="@layout/fragment_note_editor" />
+
+    <!-- DETAIL -->
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.example.notesnap.ui.detail.NoteDetailFragment"
+        android:label="@string/notes_title"
+        tools:layout="@layout/fragment_note_detail">
+
+        <argument
+            android:name="noteId"
+            app:argType="long" />
+
+        <action
+            android:id="@+id/action_detail_to_editor"
+            app:destination="@id/editorFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+</navigation>

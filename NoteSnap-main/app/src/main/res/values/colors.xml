@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Accent -->
+    <color name="ns_primary">#3ABEFF</color>
+    <color name="ns_on_primary">#00344A</color>
+    <color name="ns_primary_container">#CCE9FF</color>
+    <color name="ns_on_primary_container">#001F2E</color>
+    <color name="ns_secondary">#0E9AD4</color>
+    <color name="ns_on_secondary">#FFFFFF</color>
+
+    <!-- Neutrals -->
+    <color name="ns_background">#F7FBFF</color>
+    <color name="ns_on_background">#171C1F</color>
+    <color name="ns_surface">#FFFFFF</color>
+    <color name="ns_on_surface">#171C1F</color>
+    <color name="ns_surface_variant">#EEF3F6</color>
+    <color name="ns_on_surface_variant">#40484C</color>
+    <color name="ns_outline">#70787C</color>
+    <color name="ns_outline_variant">#C0C8CC</color>
+
+    <!-- Quick action tiles (gradient) -->
+    <color name="ns_tile_start">#3ABEFF</color>
+    <color name="ns_tile_end">#0C86C9</color>
+
+    <!-- Status -->
+    <color name="ns_error">#BA1A1A</color>
+    <color name="ns_on_error">#FFFFFF</color>
+    <color name="ns_scrim">#61000000</color>
+</resources>

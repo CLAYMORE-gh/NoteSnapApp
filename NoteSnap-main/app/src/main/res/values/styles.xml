@@ -1,0 +1,13 @@
+<resources>
+    <style name="ShapeAppearanceOverlay.NoteSnap.Fab" parent="">
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="BottomNavActiveIndicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/ns_primary_container</item>
+    </style>
+
+    <style name="BottomNavLabel" parent="TextAppearance.Material3.LabelSmall">
+        <item name="android:textSize">11sp</item>
+    </style>
+</resources>

@@ -1,0 +1,22 @@
+<resources>
+    <style name="Theme.NoteSnap" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/ns_primary</item>
+        <item name="colorOnPrimary">@color/ns_on_primary</item>
+        <item name="colorPrimaryContainer">@color/ns_primary_container</item>
+        <item name="colorOnPrimaryContainer">@color/ns_on_primary_container</item>
+        <item name="colorSecondary">@color/ns_secondary</item>
+        <item name="colorOnSecondary">@color/ns_on_secondary</item>
+        <item name="android:colorBackground">@color/ns_background</item>
+        <item name="colorOnBackground">@color/ns_on_background</item>
+        <item name="colorSurface">@color/ns_surface</item>
+        <item name="colorOnSurface">@color/ns_on_surface</item>
+        <item name="colorSurfaceVariant">@color/ns_surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/ns_on_surface_variant</item>
+        <item name="colorOutline">@color/ns_outline</item>
+        <item name="colorOutlineVariant">@color/ns_outline_variant</item>
+        <item name="colorError">@color/ns_error</item>
+        <item name="colorOnError">@color/ns_on_error</item>
+        <item name="android:statusBarColor">@color/ns_surface</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

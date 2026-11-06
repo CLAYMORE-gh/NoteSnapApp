@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">NoteSnap</string>
+
+    <!-- Bottom navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_scan">Scan</string>
+    <string name="nav_pages">Pages</string>
+
+    <!-- Home -->
+    <string name="home_greeting">Organize your study notes</string>
+    <string name="home_search_hint">Search your notes…</string>
+    <string name="quick_actions">Quick Actions</string>
+    <string name="action_view_notes">View Notes</string>
+    <string name="action_add_notes">Add Notes</string>
+
+    <!-- Notes / Pages -->
+    <string name="notes_title">Notes</string>
+    <string name="search_notes_hint">Search notes…</string>
+    <string name="new_blank_note">New blank note</string>
+    <string name="note_count">%1$d notes</string>
+    <string name="note_count_one">1 note</string>
+
+    <!-- Scan -->
+    <string name="scan_title">Scan text</string>
+    <string name="scan_subtitle">Capture printed text from a photo and turn it into an editable note.</string>
+    <string name="take_photo">Take photo</string>
+    <string name="choose_from_gallery">Gallery</string>
+    <string name="image_preview_hint">No image selected yet</string>
+    <string name="recognize_text">Recognize text</string>
+    <string name="recognizing_text">Recognizing text…</string>
+    <string name="error_no_image">Choose or take a photo first.</string>
+    <string name="error_camera">Could not open the camera on this device.</string>
+    <string name="error_recognize">Could not read the selected image.</string>
+
+    <!-- Editor -->
+    <string name="edit_note">Edit note</string>
+    <string name="new_note">New note</string>
+    <string name="title_hint">Title</string>
+    <string name="category_hint">Category</string>
+    <string name="content_hint">Type or paste scanned text here…</string>
+    <string name="save">Save</string>
+    <string name="note_saved">Note saved</string>
+    <string name="discard_changes_title">Discard changes?</string>
+    <string name="discard_changes_message">Your edits will be lost if you leave now.</string>
+    <string name="discard">Discard</string>
+    <string name="keep_editing">Keep editing</string>
+
+    <!-- Detail -->
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="delete_note_title">Delete note?</string>
+    <string name="delete_note_message">This note will be permanently removed.</string>
+    <string name="cancel">Cancel</string>
+    <string name="note_deleted">Note deleted</string>
+    <string name="created_at">Created %1$s</string>
+    <string name="updated_at">Updated %1$s</string>
+
+    <!-- Empty -->
+    <string name="empty_notes_title">No notes yet</string>
+    <string name="empty_notes_message">Scan a page or add a blank note to get started.</string>
+    <string name="no_search_results">No notes match your search.</string>
+</resources>
